@@ -1,4 +1,4 @@
-# SharePoint Online 365 Binding
+# SharePoint Online Binding
 ## _A custom binding for SharePoint Online Azure function_
 ## Features
 
