@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SharePointCustomBinding</id>
+    <version>1.0.0</version>
+    <authors>Ning Zhu</authors>
+    <readme>ReadMe.md</readme>
+    <projectUrl>https://github.com/zhufamily/SharePointBinding</projectUrl>
+    <description>Custom bing for SharePoint Online inside Azure functions</description>
+    <releaseNotes>First release for testing</releaseNotes>
+    <copyright>Free Software</copyright>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Azure.WebJobs" version="3.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Core" version="3.0.31" exclude="Build,Analyzers" />
+        <dependency id="PnP.Framework" version="1.8.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ning Zhu\Documents\GitHub\SharePointBinding\SharePointCustomBinding\bin\Debug\net6.0\SharePointCustomBinding.dll" target="lib\net6.0\SharePointCustomBinding.dll" />
+    <file src="C:\Users\Ning Zhu\Documents\GitHub\SharePointBinding\SharePointCustomBinding\ReadMe.md" target="\ReadMe.md" />
+  </files>
+</package>

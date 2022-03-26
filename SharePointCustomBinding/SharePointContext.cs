@@ -12,21 +12,37 @@ using PnP.Framework;
 
 namespace SharePointCustomBinding
 {
+    /// <summary>
+    /// Implementation class for custom Sharepoint binding class
+    /// </summary>
     [Extension("SharePointContext")]
     public class SharePointContext : IExtensionConfigProvider
     {
+        /// <summary>
+        /// Initialize the context
+        /// </summary>
+        /// <param name="context"></param>
         public void Initialize(ExtensionConfigContext context)
         {
             var rule = context.AddBindingRule<SharePointContextAttribute>();
             rule.BindToInput<ClientContext>(BuildItemFromAttribute);
         }
 
+        /// <summary>
+        /// Generate and return Client Context for binding 
+        /// </summary>
+        /// <param name="arg"></param>
+        /// <returns></returns>
         private ClientContext BuildItemFromAttribute(SharePointContextAttribute arg)
         {
             try
             {
                 if (string.IsNullOrEmpty(arg.Username))
                 {
+                    if (string.IsNullOrEmpty(arg.SiteUrl) || string.IsNullOrEmpty(arg.ClientId) || string.IsNullOrEmpty(arg.ClientSecret) || string.IsNullOrEmpty(arg.TenaneId))
+                        throw new ArgumentException("Missing required parameters for custom Sharepoint binding");
+
+                    // This is another way to the Client Context
                     // AuthenticationManager manager = new AuthenticationManager(arg.ClientId, arg.ClientSecret);
                     // ClientContext context = manager.GetContext(arg.SiteUrl);
 
@@ -36,6 +52,10 @@ namespace SharePointCustomBinding
                 }
                 else
                 {
+                    if (string.IsNullOrEmpty(arg.SiteUrl) || string.IsNullOrEmpty(arg.Username) || string.IsNullOrEmpty(arg.Password))
+                        throw new ArgumentException("Missing required parameters for custom Sharepoint binding");
+
+
                     SecureString encpwd = new SecureString();
                     foreach (char c in arg.Password)
                     {
