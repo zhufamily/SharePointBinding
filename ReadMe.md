@@ -1,5 +1,5 @@
-# SharePoint Online 365 Binding
-## _A custom binding for SharePoint Online Azure function_
+# SharePoint Online Binding
+## _A custom binding for SharePoint Online in Azure function_
 ## Features
 
 - Input / output binding for SharePoint Online Client Context 
