@@ -42,7 +42,7 @@ namespace SharePointCustomBinding
                     if (string.IsNullOrEmpty(arg.SiteUrl) || string.IsNullOrEmpty(arg.ClientId) || string.IsNullOrEmpty(arg.ClientSecret) || string.IsNullOrEmpty(arg.TenaneId))
                         throw new ArgumentException("Missing required parameters for custom Sharepoint binding");
 
-                    // This is another way to the Client Context
+                    // This is another way to get Client Context
                     // AuthenticationManager manager = new AuthenticationManager(arg.ClientId, arg.ClientSecret);
                     // ClientContext context = manager.GetContext(arg.SiteUrl);
 

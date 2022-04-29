@@ -2,12 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>SharePointCustomBinding</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <authors>Ning Zhu</authors>
     <readme>ReadMe.md</readme>
     <projectUrl>https://github.com/zhufamily/SharePointBinding</projectUrl>
     <description>Custom bing for SharePoint Online inside Azure functions</description>
-    <releaseNotes>Added comments and input parameter validation</releaseNotes>
+    <releaseNotes>Updated nuget packages and added comments</releaseNotes>
     <copyright>Free Software</copyright>
     <dependencies>
       <group targetFramework="net6.0">

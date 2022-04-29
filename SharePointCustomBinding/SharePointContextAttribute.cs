@@ -9,16 +9,34 @@ namespace SharePointCustomBinding
     [AttributeUsage(AttributeTargets.Parameter | AttributeTargets.ReturnValue)]
     public class SharePointContextAttribute : Attribute
     {
+        /// <summary>
+        /// Tenant ID from Azure AD
+        /// </summary>
         [AutoResolve]
         public string? TenaneId { get; set; }
+        /// <summary>
+        /// Application / Client ID
+        /// </summary>
         [AutoResolve]
         public string? ClientId { get; set; }
+        /// <summary>
+        /// Client Secret
+        /// </summary>
         [AutoResolve]
         public string? ClientSecret { get; set; }
+        /// <summary>
+        /// SharePoint site URL
+        /// </summary>
         [AutoResolve]
         public string? SiteUrl { get; set; }
+        /// <summary>
+        /// User Principal Name
+        /// </summary>
         [AutoResolve]
         public string? Username { get; set; }
+        /// <summary>
+        /// Password
+        /// </summary>
         [AutoResolve]
         public string? Password { get; set; }
         
