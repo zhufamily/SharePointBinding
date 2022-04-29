@@ -53,6 +53,8 @@ ILogger log)
 }
 ```
 
+For more about how to use SharePoint client context, please refer to https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM/. 
+
 ## License
 
 Free software, absolutely no warranty, use at your own risk!
