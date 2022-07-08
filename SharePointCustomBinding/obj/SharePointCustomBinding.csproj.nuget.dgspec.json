@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Ning Zhu\\Documents\\GitHub\\SharePointBinding\\SharePointCustomBinding\\SharePointCustomBinding.csproj": {
-      "version": "1.0.4",
+      "version": "1.0.5",
       "restore": {
         "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\SharePointBinding\\SharePointCustomBinding\\SharePointCustomBinding.csproj",
         "projectName": "SharePointCustomBinding",
@@ -47,15 +47,15 @@
           "dependencies": {
             "Microsoft.Azure.WebJobs": {
               "target": "Package",
-              "version": "[3.0.32, )"
+              "version": "[3.0.33, )"
             },
             "Microsoft.Azure.WebJobs.Core": {
               "target": "Package",
-              "version": "[3.0.32, )"
+              "version": "[3.0.33, )"
             },
             "PnP.Framework": {
               "target": "Package",
-              "version": "[1.9.0, )"
+              "version": "[1.10.0, )"
             }
           },
           "imports": [
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

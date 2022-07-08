@@ -6,11 +6,11 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "SharePointCustomBinding/1.0.4": {
+      "SharePointCustomBinding/1.0.5": {
         "dependencies": {
-          "Microsoft.Azure.WebJobs": "3.0.32",
-          "Microsoft.Azure.WebJobs.Core": "3.0.32",
-          "PnP.Framework": "1.9.0"
+          "Microsoft.Azure.WebJobs": "3.0.33",
+          "Microsoft.Azure.WebJobs.Core": "3.0.33",
+          "PnP.Framework": "1.10.0"
         },
         "runtime": {
           "SharePointCustomBinding.dll": {}
@@ -126,9 +126,9 @@
           }
         }
       },
-      "Microsoft.Azure.WebJobs/3.0.32": {
+      "Microsoft.Azure.WebJobs/3.0.33": {
         "dependencies": {
-          "Microsoft.Azure.WebJobs.Core": "3.0.32",
+          "Microsoft.Azure.WebJobs.Core": "3.0.33",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.0",
@@ -143,20 +143,20 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll": {
-            "assemblyVersion": "3.0.32.0",
-            "fileVersion": "3.0.32.0"
+            "assemblyVersion": "3.0.33.0",
+            "fileVersion": "3.0.33.0"
           }
         }
       },
-      "Microsoft.Azure.WebJobs.Core/3.0.32": {
+      "Microsoft.Azure.WebJobs.Core/3.0.33": {
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0",
           "System.Diagnostics.TraceSource": "4.3.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.dll": {
-            "assemblyVersion": "3.0.32.0",
-            "fileVersion": "3.0.32.0"
+            "assemblyVersion": "3.0.33.0",
+            "fileVersion": "3.0.33.0"
           }
         }
       },
@@ -605,63 +605,63 @@
       },
       "Microsoft.NETCore.Platforms/2.0.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "Microsoft.SharePointOnline.CSOM/16.1.22315.12000": {
+      "Microsoft.SharePointOnline.CSOM/16.1.22615.12000": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Office.Client.Policy.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.Office.Client.TranslationServices.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.Office.SharePoint.Tools.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.Online.SharePoint.Client.Tenant.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.ProjectServer.Client.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.DocumentManagement.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.Publishing.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.Runtime.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.Search.Applications.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.Search.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.Taxonomy.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.UserProfiles.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.WorkflowServices.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           },
           "lib/netstandard2.0/Microsoft.SharePoint.Client.dll": {
             "assemblyVersion": "16.1.0.0",
-            "fileVersion": "16.1.22315.12000"
+            "fileVersion": "16.1.22615.12000"
           }
         }
       },
@@ -744,7 +744,7 @@
           }
         }
       },
-      "PnP.Core/1.6.0": {
+      "PnP.Core/1.7.0": {
         "dependencies": {
           "AngleSharp": "0.14.0",
           "Microsoft.ApplicationInsights": "2.16.0",
@@ -761,12 +761,12 @@
         },
         "runtime": {
           "lib/net6.0/PnP.Core.dll": {
-            "assemblyVersion": "1.6.0.0",
-            "fileVersion": "1.6.0.0"
+            "assemblyVersion": "1.7.0.0",
+            "fileVersion": "1.7.0.0"
           }
         }
       },
-      "PnP.Framework/1.9.0": {
+      "PnP.Framework/1.10.0": {
         "dependencies": {
           "AngleSharp": "0.14.0",
           "AngleSharp.Css": "0.14.2",
@@ -783,9 +783,9 @@
           "Microsoft.Graph.Core": "1.25.1",
           "Microsoft.Identity.Client": "4.36.1",
           "Microsoft.Identity.Client.Extensions.Msal": "2.18.4",
-          "Microsoft.SharePointOnline.CSOM": "16.1.22315.12000",
+          "Microsoft.SharePointOnline.CSOM": "16.1.22615.12000",
           "Newtonsoft.Json": "12.0.3",
-          "PnP.Core": "1.6.0",
+          "PnP.Core": "1.7.0",
           "Portable.Xaml": "0.26.0",
           "System.Configuration.ConfigurationManager": "6.0.0",
           "System.DirectoryServices": "6.0.0",
@@ -794,8 +794,8 @@
         },
         "runtime": {
           "lib/net6.0/PnP.Framework.dll": {
-            "assemblyVersion": "1.9.0.0",
-            "fileVersion": "1.9.0.0"
+            "assemblyVersion": "1.10.0.0",
+            "fileVersion": "1.10.0.0"
           }
         }
       },
@@ -1609,7 +1609,7 @@
     }
   },
   "libraries": {
-    "SharePointCustomBinding/1.0.4": {
+    "SharePointCustomBinding/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1677,19 +1677,19 @@
       "path": "microsoft.aspnetcore.staticfiles/2.2.0",
       "hashPath": "microsoft.aspnetcore.staticfiles.2.2.0.nupkg.sha512"
     },
-    "Microsoft.Azure.WebJobs/3.0.32": {
+    "Microsoft.Azure.WebJobs/3.0.33": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uN8GsFqPFHHcSrwwj/+0tGe6F6cOwugqUiePPw7W3TL9YC594+Hw8GBK5S/fcDWXacqvRRGf9nDX8xP94/Yiyw==",
-      "path": "microsoft.azure.webjobs/3.0.32",
-      "hashPath": "microsoft.azure.webjobs.3.0.32.nupkg.sha512"
+      "sha512": "sha512-eSv858ll+GsLYxM2+RKBiTC34CvGnEgLtnrzRljzrociIXsosadHDQLxvvqu0eyIQRRf5kc4MHII/wc0HRNvyg==",
+      "path": "microsoft.azure.webjobs/3.0.33",
+      "hashPath": "microsoft.azure.webjobs.3.0.33.nupkg.sha512"
     },
-    "Microsoft.Azure.WebJobs.Core/3.0.32": {
+    "Microsoft.Azure.WebJobs.Core/3.0.33": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pW5lyF0Tno1cC2VkmBLyv7E3o5ObDdbn3pfpUpKdksJo9ysCdQTpgc0Ib99wPHca6BgvoglicGbDYXuatanMfg==",
-      "path": "microsoft.azure.webjobs.core/3.0.32",
-      "hashPath": "microsoft.azure.webjobs.core.3.0.32.nupkg.sha512"
+      "sha512": "sha512-4Rp5of6KFEGisQL7OJV2/8v3IQGFvTgZ9xSbB3bfkw5VHoNKn3Yllx7Qk/oUUX7Zey7jNu5mQFIR6dW6xNMX5Q==",
+      "path": "microsoft.azure.webjobs.core/3.0.33",
+      "hashPath": "microsoft.azure.webjobs.core.3.0.33.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",
@@ -1943,12 +1943,12 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "Microsoft.SharePointOnline.CSOM/16.1.22315.12000": {
+    "Microsoft.SharePointOnline.CSOM/16.1.22615.12000": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eBgw8LnBrCuQJTrRgW3mdy8uXnQIBUINcUFXUmsQoURBySo9eIGSfULABVB0l0IVpKSgB1XW3Jqn4w6WKb/9sQ==",
-      "path": "microsoft.sharepointonline.csom/16.1.22315.12000",
-      "hashPath": "microsoft.sharepointonline.csom.16.1.22315.12000.nupkg.sha512"
+      "sha512": "sha512-AJiI7ApweC1HYmlJiMvB3tIjtK0kCZnDLbQk66JqqUERTTIaZdIk/wyzGmyACZ8ox1zhxkDy2IbLOoAi8K7n3g==",
+      "path": "microsoft.sharepointonline.csom/16.1.22615.12000",
+      "hashPath": "microsoft.sharepointonline.csom.16.1.22615.12000.nupkg.sha512"
     },
     "Microsoft.Win32.Primitives/4.0.1": {
       "type": "package",
@@ -1978,19 +1978,19 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "PnP.Core/1.6.0": {
+    "PnP.Core/1.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eaGZavTJo58y+hSnhNnAOlQcBTtxcUpsoz8RW0Zhl/Anq64MV5NJ2bWLbb1jnYCitGcUCkiBUb7PAfpKSxpMgA==",
-      "path": "pnp.core/1.6.0",
-      "hashPath": "pnp.core.1.6.0.nupkg.sha512"
+      "sha512": "sha512-dnxqfhSYupJDUPG2i+67Zn5PpXl9ukPqy6PWpSgeviHbjem9WnSkrhs3Amtg8mleXIgn20wwJdMYD7oZbsZvYQ==",
+      "path": "pnp.core/1.7.0",
+      "hashPath": "pnp.core.1.7.0.nupkg.sha512"
     },
-    "PnP.Framework/1.9.0": {
+    "PnP.Framework/1.10.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WtRL7MxouVexgAUV253DQS9pGKu+9EvfPSL2p/Kwzk+Z1KmoSP8hEtins8cdjxRMcMwv0XVuWBt2VyDHMfYT9w==",
-      "path": "pnp.framework/1.9.0",
-      "hashPath": "pnp.framework.1.9.0.nupkg.sha512"
+      "sha512": "sha512-3kSndNdENVS7KxbrrF3xD1k6YJKcWHomHvbTa/J1tHn/U0fFUChUMIHhq/zihtNxtsssYHaOx4cyqAJW3T/Paw==",
+      "path": "pnp.framework/1.10.0",
+      "hashPath": "pnp.framework.1.10.0.nupkg.sha512"
     },
     "Portable.Xaml/0.26.0": {
       "type": "package",

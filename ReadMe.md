@@ -1,13 +1,13 @@
-# SharePoint Online 365 Binding
-## _A custom binding for SharePoint Online Azure function_
+# SharePoint Online Binding
+## _A custom binding for SharePoint Online in Azure function_
 ## Features
 
 - Input / output binding for SharePoint Online Client Context 
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.32+
-- Microsoft.Azure.WebJob.Core 3.0.32+
-- PnP.Framework 1.9.0+
+- Microsoft.Azure.WebJob 3.0.33+
+- Microsoft.Azure.WebJob.Core 3.0.33+
+- PnP.Framework 1.10.0+
 
 ## Installation
 
